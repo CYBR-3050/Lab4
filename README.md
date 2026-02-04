@@ -1,10 +1,3 @@
-Perfect — thank you, that’s exactly the level of specificity I needed. Below is a **complete, student-ready Markdown lab instruction file** that matches your standard lab style, is **process-focused**, and cleanly supports a **multi-session lab project with four graded components**.
-
-You can drop this directly into Canvas or your GitHub repo as something like
-`CYBR3050_LabProject_OWASP_Juice_Shop.md`.
-
----
-
 # **Lab Project – Web Application Security with OWASP Juice Shop**
 
 **CYBR 3050 – Principles of Cyber Operations and Defense**
