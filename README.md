@@ -200,7 +200,7 @@ A technically competent reader should be able to follow your write-up and solve 
 
 ## Deliverable 2 Submission Requirements
 
-Submit a **written technical walkthrough** (PDF or Markdown preferred).
+Submit a **written technical walkthrough** (PDF or Word Document).
 
 ---
 
