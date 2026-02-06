@@ -42,8 +42,8 @@ OWASP Juice Shop is typically deployed using container technology. Containers al
 
 In this task, you will:
 
-* Install Docker on your Kali Linux VM
-* Deploy OWASP Juice Shop
+* Install Node.js and NPM on your Kali VM
+* Clone and install OWASP Juice Shop
 * Complete two guided challenges
 * Reflect on the vulnerabilities involved
 
@@ -56,42 +56,39 @@ In this task, you will:
 
    ```bash
    sudo apt update
-   sudo apt upgrade -y
    ```
-3. Install Docker:
+3. Install Node.js and NPM:
 
    ```bash
-   sudo apt install -y docker.io
+   sudo apt install -y nodejs
+   sudo apt install -y npm
    ```
-4. Start and enable Docker:
+4. Clone Juice-Shop Code:
 
    ```bash
-   sudo systemctl start docker
-   sudo systemctl enable docker
+   git clone https://github.com/juice-shop/juice-shop.git --depth 1
    ```
-5. Verify installation:
-
+5. Install Juice Shop:
+   **This takes a long time but you only need to do it once.**
    ```bash
-   docker --version
+   cd juice-shop
+   npm install
    ```
-
-> If Docker fails to start, document the error and steps you attempted to resolve it.
+### Reflection Questions:
+- Look at the Juice Shop documentation: [https://github.com/juice-shop/juice-shop](https://github.com/juice-shop/juice-shop)
+- We could have used Docker rather than cloning our own version. What is the difference?
 
 ---
 
-## Step 2: Install and Run OWASP Juice Shop
+## Step 2: Run Juice Shop
 
-1. Pull the Juice Shop Docker image:
-
-   ```bash
-   sudo docker pull bkimminich/juice-shop
-   ```
-2. Run the container:
+1. Navigate to the juice-shop folder (you may already be there):
 
    ```bash
-   sudo docker run -d -p 3000:3000 bkimminich/juice-shop
+   npm start
    ```
-3. Open a browser and navigate to:
+
+2. Open a browser and navigate to:
 
    ```
    http://localhost:3000
@@ -240,6 +237,7 @@ Requirements:
 
 * Upload your video to **YUJA** via Canvas
 * Post the video link to the designated discussion board
+* Please find the **Embedded Code** link that you can put directly in the discussion board.
 
 ---
 
