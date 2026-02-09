@@ -107,7 +107,10 @@ The Score Board reveals all available challenges and tracks progress. In real ap
 ### Guided Steps
 
 1. Explore the site menu and UI.
+   - You can follow the "happy path" tutorial or just look around.
+   - [Happy Path](https://pwning.owasp-juice.shop/companion-guide/latest/part1/happy-path.html)
 2. Locate and access the **Score Board**.
+   - [Score Board Hints](https://pwning.owasp-juice.shop/companion-guide/latest/part2/score-board.html)
 3. Confirm the challenge is marked as solved.
 
 ### Reflection Questions
@@ -122,7 +125,7 @@ The Score Board reveals all available challenges and tracks progress. In real ap
 ### Background
 
 Authentication flaws are among the most exploited web vulnerabilities. This challenge demonstrates how improper input handling can allow authentication bypass.
-
+[Juice Shop Details](https://pwning.owasp-juice.shop/companion-guide/latest/part2/injection.html#_log_in_with_the_administrators_user_account)
 ### Guided Steps
 
 1. Navigate to the login page.
